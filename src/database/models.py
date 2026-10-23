@@ -12,4 +12,3 @@ class Documents(Base):
     created_date: Mapped[datetime] = mapped_column(DateTime(timezone=False))
     rubrics: Mapped[list[str]] = mapped_column(ARRAY(String))
 
-
